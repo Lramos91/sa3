@@ -1,0 +1,80 @@
+.banner {
+    background-image: url('../../../assets/img/banner.jpg');
+    height: 500px;
+    background-position: center top;
+    background-size: cover;
+}
+
+.banner h1 {
+    color:rgba(0, 0, 0, 0.63);
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.content {
+    top: 18%;
+    left: 20%;
+    position: absolute;
+}
+
+.content a {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 16px 20px;
+    border-radius: 8px;
+    font-weight:bold ;
+}
+
+.content a:hover{
+    background-color: darkgreen;
+    color:white
+
+}
+
+.Box{
+    background-color: darkgreen;
+    padding: 10px 10px;
+    border-radius: 5px;
+    text-align:center;
+    padding: 20px 20px;
+}
+
+.Box h1{
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.Box p{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.destaque h1{
+    color:blue;
+    font-size: 45px;
+    text-align: center;
+}
+
+
+.secao-anuncio{
+    display: flex;
+    justify-content: space-between;
+    padding: 35px;
+}
+
+.veranuncios a {
+    text-decoration: none;
+    background-color:blue;
+    color: white;
+    padding: 16px 20px;
+    border-radius: 8px;
+    font-weight:bold ;
+    align-items: center;
+}
+
+

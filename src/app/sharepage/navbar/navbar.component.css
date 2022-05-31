@@ -1,0 +1,12 @@
+
+.container-fluid {
+    background-color: #942424;
+    font-weight: bold;
+    padding: top;
+    height: 70px;
+    
+}
+
+.container-fluid a{
+    color: aliceblue;
+}
