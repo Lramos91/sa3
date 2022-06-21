@@ -1,0 +1,54 @@
+{
+  "users": [
+    {
+      "email": "Lucas@email.com",
+      "password": "senhateste",
+      "nome": "Lucas",
+      "id": 1
+    },
+    {
+      "email": "daniela@email.com",
+      "password": "$2a$10$K4HiA7P7EG.5.2ZQCiPuY.Yl5MQPzzZts.avBK4rLG.GsA8zk.k1G",
+      "nome": "Daniela",
+      "id": 2
+    }
+  ],
+  "noticias": [
+    {
+      "id": 1,
+      "imagem": "",
+      "titulo": "teste",
+      "descricao": "Testando o json"
+    },
+    {
+      "id": 2,
+      "imagem": "",
+      "titulo": "teste2",
+      "descricao": "Testando o json2"
+    },
+    {
+      "id": 3,
+      "imagem": "",
+      "titulo": "teste3",
+      "descricao": "Testando o json3"
+    },
+    {
+      "id": 4,
+      "imagem": "",
+      "titulo": "teste4",
+      "descricao": "Testando o json4"
+    },
+    {
+      "id": 5,
+      "imagem": "",
+      "titulo": "teste5",
+      "descricao": "Testando o json5"
+    },
+    {
+      "id": 6,
+      "imagem": "",
+      "titulo": "teste6",
+      "descricao": "Testando o json6"
+    }
+  ]
+}
