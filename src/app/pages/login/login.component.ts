@@ -22,7 +22,13 @@ export class LoginComponent implements OnInit {
     console.log(this.loginModel)
 
     this.loginservice.login(this.loginModel).subscribe( (Response) => {
-      console.log("sucesso")
+      this.mensagem = "Sucesso"
+      this.router.navigateByUrl('')
+    }, (respostaErro) => {
+      this.mensagem = respostaErro.error 
+      console.log(this.mensagem)
+      
+      
     }
     )
   }
